@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj",
+        "projectName": "TD4_LELIEVRE",
+        "projectPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj",
+        "packagesPath": "C:\\Users\\c22203592\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\c22203592\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

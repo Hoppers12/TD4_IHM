@@ -1,0 +1,16 @@
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.exe
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.deps.json
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.runtimeconfig.json
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.runtimeconfig.dev.json
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.dll
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\TD4_LELIEVRE.pdb
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.csproj.AssemblyReference.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.csproj.GenerateResource.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.AssemblyInfoInputs.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.AssemblyInfo.cs
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.csproj.CoreCompileInputs.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.dll
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.pdb
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.genruntimeconfig.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.FormParametrage.resources
