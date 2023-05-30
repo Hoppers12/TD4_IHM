@@ -14,3 +14,8 @@ C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.
 C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.pdb
 C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.genruntimeconfig.cache
 C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.FormParametrage.resources
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.FormJeu.resources
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.Properties.Resources.resources
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\BibliothequeJeu.dll
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\bin\Debug\netcoreapp3.1\BibliothequeJeu.pdb
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\TD4_LELIEVRE\obj\Debug\netcoreapp3.1\TD4_LELIEVRE.csproj.CopyComplete

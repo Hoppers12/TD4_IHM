@@ -44,7 +44,7 @@ namespace TD4_LELIEVRE
             this.label3 = new System.Windows.Forms.Label();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -67,7 +67,6 @@ namespace TD4_LELIEVRE
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Les joueurs";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label2
             // 
@@ -77,7 +76,6 @@ namespace TD4_LELIEVRE
             this.label2.Size = new System.Drawing.Size(57, 15);
             this.label2.TabIndex = 7;
             this.label2.Text = "Joueur 2 :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -98,7 +96,6 @@ namespace TD4_LELIEVRE
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Décodeur";
             this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -121,7 +118,6 @@ namespace TD4_LELIEVRE
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Décodeur";
             this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton1
             // 
@@ -133,7 +129,6 @@ namespace TD4_LELIEVRE
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Codificateur";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // panel2
             // 
@@ -148,7 +143,6 @@ namespace TD4_LELIEVRE
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(222, 38);
             this.panel1.TabIndex = 8;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // groupBox2
             // 
@@ -163,7 +157,6 @@ namespace TD4_LELIEVRE
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "La partie";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // numericUpDown1
             // 
@@ -177,7 +170,8 @@ namespace TD4_LELIEVRE
             0,
             0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
-            this.numericUpDown1.Enter += new System.EventHandler(this.numericUpDown1_Enter);
+            this.numericUpDown1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.numericUpDown1_KeyDown);
+            this.numericUpDown1.Leave += new System.EventHandler(this.numericUpDown1_Leave);
             // 
             // label4
             // 
@@ -196,7 +190,6 @@ namespace TD4_LELIEVRE
             this.label3.Size = new System.Drawing.Size(85, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Niveau de jeu :";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // radioButton6
             // 
@@ -208,7 +201,6 @@ namespace TD4_LELIEVRE
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Débutant";
             this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton5
             // 
@@ -221,15 +213,15 @@ namespace TD4_LELIEVRE
             this.radioButton5.Text = "Classique";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
-            // button
+            // button1
             // 
-            this.button.Location = new System.Drawing.Point(235, 401);
-            this.button.Name = "button";
-            this.button.Size = new System.Drawing.Size(314, 23);
-            this.button.TabIndex = 2;
-            this.button.Text = "Jouer !";
-            this.button.UseVisualStyleBackColor = true;
-            this.button.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Location = new System.Drawing.Point(235, 401);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(314, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Jouer !";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button_Click);
             // 
             // label5
             // 
@@ -240,7 +232,6 @@ namespace TD4_LELIEVRE
             this.label5.Size = new System.Drawing.Size(232, 32);
             this.label5.TabIndex = 3;
             this.label5.Text = "Paramétrages du jeu";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // FormParametrage
             // 
@@ -248,7 +239,7 @@ namespace TD4_LELIEVRE
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormParametrage";
@@ -267,7 +258,7 @@ namespace TD4_LELIEVRE
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;

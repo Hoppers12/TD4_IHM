@@ -1,0 +1,10 @@
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.csproj.AssemblyReference.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.AssemblyInfoInputs.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.AssemblyInfo.cs
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.csproj.CoreCompileInputs.cache
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\bin\Debug\netcoreapp3.1\BibliothequeJeu.deps.json
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\bin\Debug\netcoreapp3.1\BibliothequeJeu.dll
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\bin\Debug\netcoreapp3.1\BibliothequeJeu.pdb
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.dll
+C:\Users\c22203592\source\repos\TD4_LELIEVRE\BibliothequeJeu\obj\Debug\netcoreapp3.1\BibliothequeJeu.pdb

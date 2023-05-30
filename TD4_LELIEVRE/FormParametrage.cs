@@ -15,65 +15,7 @@ namespace TD4_LELIEVRE
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
 
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
@@ -82,10 +24,32 @@ namespace TD4_LELIEVRE
                 numericUpDown1.Value += 1;
             }
         }
-        private void numericUpDown1_Enter(object sender, EventArgs e)
-        {
-            numericUpDown1.Text = ;
+       
 
+        private void numericUpDown1_Leave(object sender, EventArgs e)
+        {
+            if (numericUpDown1.Text == "")
+            {
+                numericUpDown1.Text = numericUpDown1.Value.ToString();
+            }
+
+        }
+
+        private void numericUpDown1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter && numericUpDown1.Text == "")
+            {
+                numericUpDown1.Text = numericUpDown1.Value.ToString();
+            }
+ 
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            FormJeu page2 = new FormJeu();
+            page2.Show();
+           button1.Visible= false;
+        
         }
     }
 }

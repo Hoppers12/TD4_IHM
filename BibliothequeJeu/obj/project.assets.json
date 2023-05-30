@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "BibliothequeJeu/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/BibliothequeJeu.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BibliothequeJeu.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "BibliothequeJeu/1.0.0": {
-      "type": "project",
-      "path": "../BibliothequeJeu/BibliothequeJeu.csproj",
-      "msbuildProject": "../BibliothequeJeu/BibliothequeJeu.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "BibliothequeJeu >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\c22203592\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj",
-      "projectName": "TD4_LELIEVRE",
-      "projectPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\TD4_LELIEVRE.csproj",
+      "projectUniqueName": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\BibliothequeJeu\\BibliothequeJeu.csproj",
+      "projectName": "BibliothequeJeu",
+      "projectPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\BibliothequeJeu\\BibliothequeJeu.csproj",
       "packagesPath": "C:\\Users\\c22203592\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\TD4_LELIEVRE\\obj\\",
+      "outputPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\BibliothequeJeu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\c22203592\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\BibliothequeJeu\\BibliothequeJeu.csproj": {
-              "projectPath": "C:\\Users\\c22203592\\source\\repos\\TD4_LELIEVRE\\BibliothequeJeu\\BibliothequeJeu.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -81,9 +58,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
